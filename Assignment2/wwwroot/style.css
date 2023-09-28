@@ -1,0 +1,98 @@
+/* Asked chatgpt to apply Lightning McQueen theme we will see how it goes */
+body {
+    background: url('mcqueen.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color: red;
+    padding: 20px;
+}
+
+h1 {
+    color: yellow;
+}
+
+div {
+    margin: 20px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Style the search box and buttons */
+label {
+    color: yellow;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid yellow;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+input[type="button"] {
+    background-color: red;
+    color: yellow;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+/* Hide searchResults and time divs initially */
+#searchResults, #time {
+    display: none;
+}
+/* Existing CSS styles */
+
+/* Style the dialog */
+.ui-dialog {
+    width: 400px; /* Adjust the width as needed */
+    max-height: 400px; /* Adjust the max height as needed */
+    overflow-y: auto; /* Add a vertical scrollbar when content overflows */
+    padding: 20px;
+}
+
+/* Style the dialog title bar */
+.ui-dialog-titlebar {
+    background-color: red;
+    color: yellow;
+    border: none;
+    padding: 10px;
+}
+
+/* Style the close button in the dialog title bar */
+.ui-dialog-titlebar-close {
+    color: yellow;
+}
+
+/* Style the dialog content */
+.ui-dialog-content {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border: 1px solid yellow;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+    /* Adjust the scrollbar styles (optional) */
+    .ui-dialog-content::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    .ui-dialog-content::-webkit-scrollbar-thumb {
+        background-color: yellow;
+    }
+
+    .ui-dialog-content::-webkit-scrollbar-track {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
